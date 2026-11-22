@@ -1,0 +1,17 @@
+VERSION ""
+
+NS_ :
+    CM_
+    VAL_
+
+BS_:
+
+BU_: Tester DialController
+
+BO_ 1056 request_message: 1 Tester
+ SG_ request_byte : 0|8@1+ (1,0) [0|255] "" DialController
+
+BO_ 1680 sent_message: 2 DialController
+ SG_ analog_reading : 7|16@0+ (1,0) [0|1023] "" Tester
+
+VAL_ 1056 request_byte 105 "Request_sent" ;
